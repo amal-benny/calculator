@@ -1,8 +1,9 @@
 .calc{
     width: 400px;
     height: 500px;
-    background: gray;
+    background: rgb(81, 34, 34);
     margin-left: 500px;
+    border-radius: 5px;
 }
 #screen{
     width: 80%;
@@ -16,6 +17,11 @@
     height: 46px;
     margin-left: 30px;
     margin-top: 30px;
-    background: #5e9e2c;
+    background: #3910cd;
+    border-radius: 5px;
+    cursor: pointer;
 
+}
+.btn:hover{
+    background-color: brown;
 }
